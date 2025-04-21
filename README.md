@@ -64,11 +64,11 @@ This Laravel backend is for YouTube-like video preview application. It serves vi
         cd youtube_video_preview
         composer install
         npm install
-        cp .env.example .env
-            DB_DATABASE=database/database.sqlite
 
 2. Configure database
     >
+        cp .env.example .env
+            DB_DATABASE=database/database.sqlite
         type nul > database/database.sqlite
         php artisan migrate
         php artisan db:seed
